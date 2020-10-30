@@ -3,7 +3,7 @@
 div.img {
     height: 200px;
     width: 200px;
-    background-image: url(../_imagens/perfil2.jpg);
+    background-image: url(../_imagens/perfil.jpg);
     margin: auto;
     filter: blur(5px);
 }
