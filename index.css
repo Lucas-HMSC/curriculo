@@ -31,3 +31,9 @@ p.est-p {
 a.est-link {
     color: #27ae60;
 }
+
+img.img-social {
+    height: 200px;
+    width: 200px;
+    float: right;
+}
