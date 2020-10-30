@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+div.img {
+    height: 200px;
+    width: 200px;
+    background-image: url(../_imagens/perfil2.jpg);
+    margin: auto;
+    filter: blur(5px);
+}
+
+div.cursos {
+    margin: 20px;
+}
+
+div.cursos li {
+    text-align: left;
+}
+
+h2.tam-h2 {
+    font-size: larger;
+}
+
+div.cursos li.lista-sec {
+    list-style-type: square;
+}
+
+p.est-p {
+    font-size: large;
+    text-align: left;
+}
+
+a.est-link {
+    color: #27ae60;
+}
