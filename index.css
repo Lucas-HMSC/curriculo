@@ -19,6 +19,10 @@ h2.tam-h2 {
     font-size: larger;
 }
 
+h2.tam-center {
+    margin: 3px 3px;
+}
+
 div.cursos li.lista-sec {
     list-style-type: square;
 }
@@ -32,8 +36,8 @@ a.est-link {
     color: #27ae60;
 }
 
-img.img-social {
-    height: 150px;
-    width: 150px;
-    margin-bottom: 10px;
+div.div-linkedin {
+    color: #fff;
+    background-color: #17a2b8;
 }
+
