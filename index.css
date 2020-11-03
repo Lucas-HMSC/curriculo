@@ -11,10 +11,6 @@ div.cursos {
     margin: 20px;
 }
 
-h2.h2-cursos {
-    margin: 12px 12px;
-}
-
 div.cursos li {
     text-align: left;
 }
@@ -65,6 +61,3 @@ div.div-whatsapp {
     background-color: #2ecc71;
 }
 
-.more-info {
-    float: right;
-}
