@@ -37,10 +37,10 @@
             <div class="col-md-12">
             <!-- Faculdade -->
             <div class="cursos"> 
-                <button class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#facul-extended" aria-controls="facul-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#facul-extended" aria-controls="facul-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('facul')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">Ciências da Computação</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="facul">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-warning border-top-0" id="facul-extended">
@@ -63,10 +63,10 @@
             </div>
             <!-- Git e GitHub -->
             <div class="cursos"> 
-                <button class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#git-extended" aria-controls="git-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#git-extended" aria-controls="git-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('git')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">Git & GitHub</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="git">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-warning border-top-0" id="git-extended">
@@ -85,10 +85,10 @@
             </div>
             <!-- MySQL -->
             <div class="cursos"> 
-                <button class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#sql-extended" aria-controls="sql-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#sql-extended" aria-controls="sql-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('sql')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">MySQL</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="sql">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-warning border-top-0" id="sql-extended">
@@ -108,10 +108,10 @@
             </div>
             <!-- PHP Básico -->
             <div class="cursos"> 
-                <button class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#php-extended" aria-controls="php-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#php-extended" aria-controls="php-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('php')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">PHP</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="php">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-warning border-top-0" id="php-extended">
@@ -130,10 +130,10 @@
             </div>
             <!-- PHP OO -->
             <div class="cursos"> 
-                <button class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#php-oo-extended" aria-controls="php-oo-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#php-oo-extended" aria-controls="php-oo-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('php-oo')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">PHP OO</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="php-oo">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-warning border-top-0" id="php-oo-extended">
@@ -152,10 +152,10 @@
             </div>
             <!-- Python 3 -->
             <div class="cursos"> 
-                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#python-extended" aria-controls="python-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#python-extended" aria-controls="python-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('python')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">Python 3</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="python">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-success border-top-0" id="python-extended">
@@ -176,10 +176,10 @@
             </div>
             <!-- Hardware -->
             <div class="cursos"> 
-                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#hardware-extended" aria-controls="hardware-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#hardware-extended" aria-controls="hardware-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('hardware')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">Hardware</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="hardware">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-success border-top-0" id="hardware-extended">
@@ -197,10 +197,10 @@
             </div>
             <!-- Linux -->
             <div class="cursos"> 
-                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#linux-extended" aria-controls="linux-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#linux-extended" aria-controls="linux-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('linux')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">Linux</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="linux">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-success border-top-0" id="linux-extended">
@@ -219,10 +219,10 @@
             </div>
             <!-- Redes de Computadores -->
             <div class="cursos"> 
-                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#redes-extended" aria-controls="redes-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#redes-extended" aria-controls="redes-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('redes')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">Redes de Computadores</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="redes">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-success border-top-0" id="redes-extended">
@@ -241,10 +241,10 @@
             </div>
             <!-- HTML5 e CSS3 -->
             <div class="cursos"> 
-                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#html5-extended" aria-controls="html5-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#html5-extended" aria-controls="html5-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('html5')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">HTML5 & CSS3</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="html5">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-success border-top-0" id="html5-extended">
@@ -263,10 +263,10 @@
             </div>
             <!-- Java Básico -->
             <div class="cursos"> 
-                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#java-extended" aria-controls="java-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#java-extended" aria-controls="java-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('java')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">Java</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="java">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-success border-top-0" id="java-extended">
@@ -285,10 +285,10 @@
             </div>
             <!-- Java OO -->
             <div class="cursos"> 
-                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#java-oo-extended" aria-controls="java-oo-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#java-oo-extended" aria-controls="java-oo-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('java-oo')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">Java OO</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="java-oo">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-success border-top-0" id="java-oo-extended">
@@ -307,10 +307,10 @@
             </div>
             <!-- JavaScript -->
             <div class="cursos">
-                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#javascript-extended" aria-controls="javascript-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#javascript-extended" aria-controls="javascript-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('javascript')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">JavaScript</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="javascript">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-success border-top-0" id="javascript-extended">
@@ -329,10 +329,10 @@
             </div>
             <!-- Designer de Games -->
             <div class="cursos">
-                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#games-extended" aria-controls="games-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#games-extended" aria-controls="games-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('games')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">Designer de Games</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="games">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-success border-top-0" id="games-extended">
@@ -352,10 +352,10 @@
             </div>
             <!-- Inglês -->
             <div class="cursos">
-                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#ingles-extended" aria-controls="ingles-extended" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#ingles-extended" aria-controls="ingles-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('ingles')">
                   <h2 class="tam-h2 tam-center">
                     <span class="curso-title">Inglês</span>
-                    <span class="more-info">+</span>
+                    <span class="more-info" id="ingles">+</span>
                   </h2>
                 </button>
               <div class="collapse border border-success border-top-0" id="ingles-extended">
@@ -390,5 +390,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="popper.min.js"></script>
     <script src="bootstrap.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
