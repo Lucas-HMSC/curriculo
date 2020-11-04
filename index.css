@@ -38,7 +38,7 @@ a.est-link {
 
 div.div-linkedin {
     color: #fff;
-    background-color: #17a2b8;
+    background-color: #0274b3;
 }
 div.div-github {
     color: #fff;
@@ -46,19 +46,24 @@ div.div-github {
 }
 div.div-facebook {
     color: #fff;
-    background-color: #2980b9;
+    background-color: #2a5297;
 }
 div.div-instagram {
     color: #fff;
-    background-color: #fd79a8;
+    background-color: #db1bac;
 }
 div.div-gmail {
     color: #fff;
-    background-color: #e74c3c;
+    background-color: #d54b3d;
 }
 div.div-whatsapp {
     color: #fff;
-    background-color: #2ecc71;
+    background-color: #46c655;
+}
+
+div.div-telegram {
+    color: #fff;
+    background-color: #259dcf;
 }
 
 .more-info {
