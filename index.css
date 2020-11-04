@@ -3,7 +3,7 @@
 div.img {
     height: 200px;
     width: 200px;
-    background-image: url(https://i.imgur.com/sUGIP9A.jpg);
+    background-image: (https://i.imgur.com/sUGIP9A.jpg);
     margin: auto;
 }
 
@@ -66,7 +66,10 @@ div.div-telegram {
     background-color: #259dcf;
 }
 
-.more-info {
+span.more-info {
     float: right;
 }
 
+li.lista {
+    text-align: left;
+}
