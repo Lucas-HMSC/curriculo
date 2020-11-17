@@ -12,9 +12,17 @@ div.img-card {
     background-color: #28a745;
 }
 
+.portfolio {
+    background-color: #007bff !important;
+}
+
 div.img-card > img {
     height: 200px;
     width: auto;
+}
+
+.sites {
+    width: 100% !important;
 }
 
 div.cursos {
