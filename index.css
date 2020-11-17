@@ -64,7 +64,7 @@ div.div-facebook {
 }
 div.div-instagram {
     color: #fff;
-    background-color: #db1bac;
+    background-image: linear-gradient(to bottom right, #624fc9, #cc39a4, #ff9048);
 }
 div.div-gmail {
     color: #fff;
