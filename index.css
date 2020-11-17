@@ -6,6 +6,17 @@ div.img {
     margin: auto;
 }
 
+div.img-card {
+    height: 200px;
+    width: auto;
+    background-color: #28a745;
+}
+
+div.img-card > img {
+    height: 200px;
+    width: auto;
+}
+
 div.cursos {
     margin: 20px;
 }
