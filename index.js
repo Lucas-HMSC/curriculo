@@ -1,5 +1,5 @@
 (function() {
-    $('button.atual').click();
+    $('[data-ativo="true"]').click();
 })();
 
 function collapse(curso) {
