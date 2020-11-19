@@ -1,3 +1,8 @@
+(function() {
+    let anoAtual = $('button.atual');
+    anoAtual.click();
+})();
+
 function collapse(curso) {
     let simbol = document.querySelector(`span#${curso}`);
     if (simbol.textContent == '+') {
