@@ -1,6 +1,5 @@
 (function() {
-    let anoAtual = $('button.atual');
-    anoAtual.click();
+    $('button.atual').click();
 })();
 
 function collapse(curso) {
