@@ -84,3 +84,45 @@ li.lista {
     text-align: left;
 }
 
+/* Light Mode */
+
+body.light {
+  height: 100%;
+  background-color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .2);
+}
+
+.masthead-light {
+    color: #333;
+}
+
+.nav-link.nav-light {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: #333;
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-link.nav-light:hover,
+.nav-link.nav-light:focus {
+  border-bottom-color: rgba(200, 200, 200, .25);
+}
+
+.nav-link.nav-light.active {
+    color: #333;
+    border-bottom-color: #333;
+}
+
+.text-muted-light {
+    color:rgba(150, 150, 150, .50);
+    text-shadow: none;
+}
+
+.text-muted-light a:hover {
+    color: #333;
+    text-decoration: none;
+}
