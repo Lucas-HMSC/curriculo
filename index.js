@@ -17,3 +17,8 @@ $('.volta-topo').click(function(e){
         scrollTop: 0
     }, 500)
 });
+
+function changeMode() {
+    let img = document.querySelector('img#img-lampada');
+    img.src = "img/lamp32px-acesa.png";
+}
