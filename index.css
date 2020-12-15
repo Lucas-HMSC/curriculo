@@ -126,3 +126,13 @@ body.light {
     color: #333;
     text-decoration: none;
 }
+
+a.light {
+    color: #000;
+    text-decoration: underline;
+}
+
+a.light:focus,
+a.light:hover {
+  color: #28a745;
+}
