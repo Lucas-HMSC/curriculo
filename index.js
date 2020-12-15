@@ -1,7 +1,15 @@
+/* Em produção
 function changeMode() {
-    let img = document.querySelector('img#img-lampada');
-    img.src = "img/lamp32px-acesa.png";
-}
+    let img = document.querySelector('img#img-lampada').src;
+    
+    console.log(img);
+    *
+    if (img == apagada){
+        img.src = "img/lamp32px-acesa.png";
+    } else if (img == acesa){
+        img.src = "img/lamp32px-apagada.png";
+    }*
+}*/
 
 (function() {
     $('[data-ativo="true"]').click();
