@@ -30,3 +30,10 @@ $('.volta-topo').click(function(e){
         scrollTop: 0
     }, 500)
 });
+
+(function escondeClasse() {
+    if (window.matchMedia("(max-width: 575px)").matches) {
+        const esconder = document.querySelector('.esconder');
+        esconder.classList.add('d-none');
+    } 
+})();
