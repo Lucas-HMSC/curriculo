@@ -38,6 +38,7 @@ function acender(){
 }
 
 function apagar(){
+    const html = document.querySelector('html');
     const corpo = document.body;
     const tith3 = document.querySelector('.masthead-brand');
     const navLink = document.querySelectorAll('.nav-link');
@@ -45,6 +46,7 @@ function apagar(){
     const links = document.querySelectorAll('[data-link="external"]');
     const divContato = document.querySelectorAll('[data-div="contato"]');
     
+    html.classList.remove('light');
     corpo.classList.remove('light');
     tith3.classList.remove('masthead-light');
     navLink.forEach((item) => {
