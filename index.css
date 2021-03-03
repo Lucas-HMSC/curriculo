@@ -89,8 +89,12 @@ li.lista {
 }
 
 /*Light Mode*/
+html.light {
+    background-color: #fff;
+}
+
 body.light {
-    height: auto;
+    height: 100vh;
     background-color: #fff;
     display: -ms-flexbox;
     display: flex;
