@@ -83,7 +83,7 @@ function changePhoto(option){
     $('[data-ativo="true"]').click();
 
     if (!localStorage.getItem('dark')){
-        localStorage.setItem('dark', true);
+        localStorage.setItem('dark', false);
     }
     const mode = localStorage.getItem('dark');
     if (mode === 'true') {
