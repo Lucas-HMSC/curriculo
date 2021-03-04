@@ -68,11 +68,11 @@ function changePhoto(option){
 
     switch (option){
         case 1:
-            nome = 'lamp32px-acesa.png';
+            nome = 'lamp32px-acesa.svg';
             img.src = local + nome;
             break;
         case 2:
-            nome = 'lamp32px-apagada.png';
+            nome = 'lamp32px-apagada.svg';
             img.src = local + nome;
             break;
     }

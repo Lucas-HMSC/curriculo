@@ -88,6 +88,11 @@ li.lista {
     padding: 0 .25rem;
 }
 
+#img-lampada {
+    height: 32px;
+    width: 32px;
+}
+
 /*Light Mode*/
 html.light {
     background-color: #fff;
