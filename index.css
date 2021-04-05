@@ -25,6 +25,9 @@ div.img-card > img {
     width: 100% !important;
 }
 
+.col-md-12 a {
+    text-decoration: none;
+}
 div.cursos {
     margin: 20px;
 }
