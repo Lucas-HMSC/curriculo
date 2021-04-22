@@ -201,7 +201,7 @@ p {
 
 /* Titulo */
 .titulo {
-  color: #b07dfb;
+  color: #2299FF;
 }
 .titulo h1 {
   font-size: 3.75em;
@@ -221,7 +221,7 @@ p {
 .caracteristicas > div {
   width: 80px;
   text-align: center;
-  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  background: linear-gradient(135deg, #3355BB, #2299FF);
   border-radius: 5px;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
   position: relative;
@@ -231,10 +231,10 @@ p {
 }
 .caracteristicas span {
   display: block;
-  color: #b07dfb;
+  color: #2299FF;
 }
 .numero {
-  color: #b07dfb;
+  color: #2299FF;
   font-size: 3em;
   line-height: 1;
   margin: 10px auto;
@@ -248,7 +248,7 @@ p {
 }
 .destaque {
   font-size: 0.875em;
-  color: #b07dfb;
+  color: #2299FF;
   max-width: 16em;
 }
 .citacao,
@@ -257,7 +257,7 @@ p {
   padding: 30px;
   border-radius: 5px;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
-  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  background: linear-gradient(135deg, #3355BB, #2299FF);
   color: white;
 }
 .citacao p {
@@ -275,7 +275,7 @@ p {
   padding: 15px;
 }
 .atributos li + li {
-  border-top: 2px solid #b07dfb;
+  border-top: 2px solid #2299FF;
 }
 
 /* Anuncios */
