@@ -8,7 +8,7 @@ blockquote {
   margin: 0px;
 }
 body {
-  font-family: 'Volkorn', Georgia, serif;
+  font-family: 'Nunito', sans-serif;
 }
 li {
   list-style: none;
@@ -57,7 +57,7 @@ img {
 /* Header */
 .header {
   grid-area: header;
-  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  background: linear-gradient(135deg, #3355BB, #2299FF);
   padding: 30px;
   display: grid;
   grid-template-columns: 1fr auto;
