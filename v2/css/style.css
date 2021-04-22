@@ -292,7 +292,7 @@ p {
 /* Footer */
 .footer {
   grid-area: footer;
-  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  background: linear-gradient(135deg, #3355BB, #2299FF);
 }
 .footer p {
   color: white;
