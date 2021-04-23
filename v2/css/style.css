@@ -307,3 +307,7 @@ p {
   letter-spacing: -0.005em;
   color: rgba(0, 0, 0, 0.7);
 }
+.grad-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
