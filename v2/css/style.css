@@ -311,3 +311,15 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.curso-titulo {
+  color: #2299FF;
+  font-weight: bold;
+}
+.curso-link {
+  text-decoration: none;
+  color: #3355BB;
+}
+.curso-link:hover {
+  text-decoration: underline;
+  color: #2299FF;
+}
