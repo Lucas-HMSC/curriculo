@@ -299,3 +299,11 @@ p {
   text-align: center;
   padding: 30px;
 }
+
+/* Personalização */
+.atividades {
+  font-size: 1.125em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, 0.7);
+}
