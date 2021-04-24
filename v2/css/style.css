@@ -236,10 +236,14 @@ p {
 .numero {
   color: #2299FF;
   font-size: 3em;
+  font-family: Courier, monospace;
+  font-weight: bold;
   line-height: 1;
   margin: 10px auto;
 }
 .rotulo {
+  font-family: Courier, monospace;
+  font-weight: bold;
   background: white;
   border-radius: 0 0 5px 5px;
   padding: 5px 0;
