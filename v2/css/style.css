@@ -309,7 +309,7 @@ p {
 }
 .grad-lista {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .curso-titulo {
   font-size: 1.25em;;
