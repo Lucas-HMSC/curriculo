@@ -312,6 +312,7 @@ p {
   grid-template-columns: 1fr 1fr;
 }
 .curso-titulo {
+  font-size: 1.25em;;
   color: #2299FF;
   font-weight: bold;
 }
@@ -320,6 +321,5 @@ p {
   color: #3355BB;
 }
 .curso-link:hover {
-  text-decoration: underline;
   color: #2299FF;
 }
