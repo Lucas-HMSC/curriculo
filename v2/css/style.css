@@ -329,6 +329,9 @@ p {
 }
 
 /* Slide */
+.galeria {
+  grid-column: 1 / -1;
+}
 .slide-wrapper {
   overflow: hidden;
   grid-column: 1 / -1;
@@ -341,7 +344,7 @@ p {
 }
 .slide li {
   flex-shrink: 0;
-  width: 80vw;
+  /*width: 80vw;*/
   max-width: 800px;
   margin: 0 20px;
   border-radius: 4px;
@@ -376,9 +379,8 @@ p {
 .custom-controls {
    display: flex;
    justify-content: center;
-   margin-top: 40px;
-   margin-bottom: 20px;
    flex-wrap: wrap;
+   grid-column: 1 / -1;
 }
 .custom-controls li {
   opacity: .8;
