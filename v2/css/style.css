@@ -367,14 +367,14 @@ p {
   display: block;
   width: 12px;
   height: 12px;
-  background: #FB5;
+  background: #3355BB;
   border-radius: 50%;
   overflow: hidden;
   text-indent: -999px;
   margin: 5px;
 }
 [data-control="slide"] li.active a, [data-control="slide"] li a:hover {
-  background: #E54;
+  background: #2299FF;
 }
 .custom-controls {
    display: flex;
@@ -409,7 +409,7 @@ p {
   color: white;
   width: 40px;
   height: 40px;
-  background: #FB5 url('../img/slide/arrow.svg') center center no-repeat;
+  background: #3355BB url('../img/slide/arrow.svg') center center no-repeat;
 }
 .arrow-nav button.prev {
   transform: rotate(-180deg);
