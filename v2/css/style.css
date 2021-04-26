@@ -297,6 +297,8 @@ p {
 .footer {
   grid-area: footer;
   background: linear-gradient(135deg, #3355BB, #2299FF);
+  display: grid;
+  grid-template-columns: 5fr 1fr;
 }
 .footer p {
   color: white;
@@ -326,6 +328,12 @@ p {
 }
 .curso-link:hover {
   color: #2299FF;
+}
+.icone-up {
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  padding: 30px;
 }
 
 /* Slide */
