@@ -2,8 +2,7 @@ body,
 p,
 h1,
 ul,
-li,
-blockquote {
+li {
   padding: 0px;
   margin: 0px;
 }
@@ -180,13 +179,6 @@ img {
 .col-wide {
   grid-column: 1 / -1;
 }
-.imagem-1 {
-  grid-row: span 2;
-  align-self: end;
-}
-.imagem-2 {
-  align-self: end;
-}
 
 /* Estilos Content */
 p {
@@ -194,9 +186,6 @@ p {
   line-height: 1.6;
   letter-spacing: -0.005em;
   color: rgba(0, 0, 0, 0.7);
-}
-.informacoes p + p {
-  margin-top: 30px;
 }
 
 /* Titulo */
@@ -250,12 +239,7 @@ p {
   position: relative;
   top: 2px;
 }
-.destaque {
-  font-size: 0.875em;
-  color: #2299FF;
-  max-width: 16em;
-}
-.citacao,
+.subtitulo,
 .atributos {
   align-self: start;
   padding: 30px;
@@ -264,7 +248,7 @@ p {
   background: linear-gradient(135deg, #3355BB, #2299FF);
   color: white;
 }
-.citacao p {
+.subtitulo p {
   font-size: 1.5em;
   font-style: italic;
   text-align: center;
