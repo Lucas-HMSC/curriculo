@@ -55,18 +55,8 @@
 		</nav>
 
 		<main class='content'>
-			<div class='titulo'>
+			<div class='titulo col-wide'>
 				<h1>Sobre mim</h1>
-			</div>
-			<div class='caracteristicas'>
-				<div>
-					<span class='numero'>22</span>
-					<span class='rotulo'>anos</span>
-				</div>
-				<div>
-					<span class='numero'>JS</span>
-					<span class='rotulo'>stack</span>
-				</div>
 			</div>
 
 			<p class='col-wide'>
@@ -100,29 +90,20 @@
 					<p>Projetos</p>
 				</div>
 				<br>
-				<div class="galeria">
-					<ul class="custom-controls custom-controls1">
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-					</ul>
-					<div class="slide-wrapper slide-wrapper1">
-						<ul class="slide slide1">
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-						</ul>
+				<div data-slide="slide" class="slide">
+					<div class="slide-thumb"></div>
+					<div class="slide-items">
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-1.jpg" alt="Img 1"></a>
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-2.jpg" alt="Img 1"></a>
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-3.jpg" alt="Img 1"></a>
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-1.jpg" alt="Img 1"></a>
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-2.jpg" alt="Img 1"></a>
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-3.jpg" alt="Img 1"></a>
 					</div>
-					<div class="arrow-nav">
-						<button class="prev prev1"></button>
-						<button class="next next1"></button>
-					</div>
+					<nav class="slide-nav">
+						<div class="slide-prev"><img src="img/slide/seta-esq.svg" alt="Mover para Esquerda"></div>
+						<div class="slide-next"><img src="img/slide/seta-dir.svg" alt="Mover para Esquerda"></div>
+					</nav>
 				</div>
 			</section>
 	
@@ -131,29 +112,20 @@
 					<p>Portfólio</p>
 				</div>
 				<br>
-				<div class="galeria">
-					<ul class="custom-controls custom-controls2">
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-						<li><img src="img/slide/placeholder.svg" alt="Banner do Projeto"></li>
-					</ul>
-					<div class="slide-wrapper slide-wrapper2">
-						<ul class="slide slide2">
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-							<li><img src="img/slide/placeholder.jpg" alt="Banner do Projeto"></li>
-						</ul>
+				<div data-slide="slide2" class="slide">
+					<div class="slide-thumb"></div>
+					<div class="slide-items">
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-1.jpg" alt="Img 1"></a>
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-2.jpg" alt="Img 1"></a>
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-3.jpg" alt="Img 1"></a>
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-1.jpg" alt="Img 1"></a>
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-2.jpg" alt="Img 1"></a>
+						<a href="https://google.com" target="_blank"><img src="img/slide/placeholder-3.jpg" alt="Img 1"></a>
 					</div>
-					<div class="arrow-nav">
-						<button class="prev prev2"></button>
-						<button class="next next2"></button>
-					</div>
+					<nav class="slide-nav">
+						<div class="slide-prev"><img src="img/slide/seta-esq.svg" alt="Mover para Esquerda"></div>
+						<div class="slide-next"><img src="img/slide/seta-dir.svg" alt="Mover para Esquerda"></div>
+					</nav>
 				</div>
 			</section>
 		</main>
@@ -172,7 +144,7 @@
 			<a class="icone-up" href="#top"><img src="img/up.svg" alt="Ir para o Topo"></a>
 		</footer>
 
-		<script type="module" src="js/script.js"></script>
+		<script type="module" src="js/slide.js"></script>
 		<script src="js/scroll-smooth.js"></script>
 	</div>
 </body>
