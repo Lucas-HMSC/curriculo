@@ -342,4 +342,5 @@ p {
 }
 .slide-nav div {
   width: 40px;
+  cursor: pointer;
 }
