@@ -202,43 +202,7 @@ p {
   font-style: italic;
 }
 
-/* Características */
-.caracteristicas {
-  display: flex;
-  align-items: flex-start;
-}
-.caracteristicas > div {
-  width: 80px;
-  text-align: center;
-  background: linear-gradient(135deg, #3355BB, #2299FF);
-  border-radius: 5px;
-  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
-  position: relative;
-}
-.caracteristicas > div:first-child {
-  margin-right: 30px;
-}
-.caracteristicas span {
-  display: block;
-  color: #2299FF;
-}
-.numero {
-  color: #2299FF;
-  font-size: 3em;
-  font-family: Courier, monospace;
-  font-weight: bold;
-  line-height: 1;
-  margin: 10px auto;
-}
-.rotulo {
-  font-family: Courier, monospace;
-  font-weight: bold;
-  background: white;
-  border-radius: 0 0 5px 5px;
-  padding: 5px 0;
-  position: relative;
-  top: 2px;
-}
+/* Main Content */
 .subtitulo,
 .atributos {
   align-self: start;
