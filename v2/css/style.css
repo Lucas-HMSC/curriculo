@@ -286,6 +286,60 @@ p {
 
 /* Slide Stories */
 .slide {
-  max-width: 600px;
+  max-width: 900px;
   margin: 20px auto;
+  display: grid;
+}
+.slide-items {
+  position: relative;
+  grid-area: 1/1;
+  overflow: hidden;
+}
+.slide-items > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+  pointer-events: none;
+}
+.slide-items > .active {
+  position: relative;
+  opacity: 1;
+  pointer-events: initial;
+}
+.slide-thumb {
+  display: flex;
+  grid-area: 1/1;
+  grid-row: auto;
+  z-index: 1;
+}
+.slide-thumb > span {
+  flex: 1;
+  display: block;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.4);
+  margin: 5px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.slide-thumb > span.active:after {
+  content: '';
+  display: block;
+  height: inherit;
+  background: #2299FF;
+  border-radius: 3px;
+  transform: translateX(-100%);
+  animation: thumb 5s forwards linear;
+}
+@keyframes thumb {
+  to {
+    transform: initial;
+  }
+}
+.slide-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.slide-nav div {
+  width: 40px;
 }
