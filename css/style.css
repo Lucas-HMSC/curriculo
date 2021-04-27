@@ -283,6 +283,17 @@ p {
   margin: 0 auto;
   padding: 30px;
 }
+.grid-cursos {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+@media (max-width: 600px) {
+  .grid-cursos {
+    grid-template-columns: auto;
+  }
+}
 
 /* Slide Stories */
 .slide {
