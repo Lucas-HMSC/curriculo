@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Lucas-HMSC">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Lucas Carvalho - Formação</title>
+
+    <!-- Principal CSS do Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Estilos customizados para esse template -->
+    <link rel="stylesheet" href="cover.css">
+    <!-- Estilo personaizado -->
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <a href="index.html"><h3 class="masthead-brand">Lucas Carvalho - Formação</h3></a>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="">Formação</a>
+            <a class="nav-link" href="experiencia.html">Experiência</a>
+            <a class="nav-link" href="contato.html">Contato</a>
+            <!--Em produção-->
+            <a class="icon-lampada" href="#" onclick="changeMode()">
+              <img id="img-lampada" src="img/lamp32px-apagada.svg" alt="Lampada">
+            </a>
+          </nav>
+        </div>
+      </header>
+      
+      <main role="main">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <!-- Faculdade -->
+              <div class="cursos"> 
+                  <button class="btn btn-warning btn-block" type="button" data-ativo="true" data-toggle="collapse" data-target="#facul-extended" aria-controls="facul-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('facul')">
+                    <h2 class="tam-h2 tam-center">
+                      <span class="curso-title">Ciência da Computação</span>
+                      <span class="float-right" id="facul">+</span>
+                    </h2>
+                  </button>
+                <div class="collapse border border-warning border-top-0" id="facul-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> Universidade Paulista (UNIP).</li>
+                    <li><strong>Nível:</strong> Bacharel.</li>
+                    <li><strong>Duração:</strong> 4 Anos (8 Semestres).</li>
+                    <li><strong>Obs:</strong> Cursando 4º Ano (7º Semestre) no período noturno.</li>
+                    <li>Linguagens de Programação abordadas até o momento:</li>
+                    <ul>
+                      <li class="lista-sec">C#</li>
+                      <li class="lista-sec">Java</li>
+                      <li class="lista-sec">SQL</li>
+                      <li class="lista-sec">Python</li>
+                      <li class="lista-sec">Assembly</li>
+                    </ul>
+                    <li>Projetos desenvolvidos até o momento:</li>
+                    <ul>
+                      <li class="lista-sec">Desenvolvimento em Ambiente Web</li>
+                      <li class="lista-sec">Técnicas Criptográficas com C#</li>
+                      <li class="lista-sec">Programação Orientada a Objetos com Java</li>
+                      <li class="lista-sec">Ordenação de Dados com Java</li>
+                      <li class="lista-sec">Comunicação em Rede com C#</li>
+                      <li class="lista-sec">Reconhecimento Facial com C#</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- React Native-->
+              <div class="cursos">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#react-native-extended" aria-controls="react-native-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('react-native')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">React Native</span>
+                    <span class="float-right" id="react-native">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="react-native-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.youtube.com/playlist?list=PLx4x_zx8csUgyDN7j9L7gykBjxByM_etD" target="_blank" rel="external" data-link="external">CFB Cursos</a>.</li>
+                    <li><strong>Duração:</strong> 13,8 horas.</li>
+                    <li><strong>Nível:</strong> Básico.</li>
+                    <li><strong>Tópicos abordados:</strong> Configuração do Ambiente; Criação de Projetos; Componentes Funcionais e de Classe; Formatação CSS; Props; CSS Externo; Elementos Responsivos com Flex; Renderização Condicional; Imagens; Arrow Function; Button; FlatList; Imagem de Fundo; State; Switch; TextInput; ScrollView; TouchableHighlight; Modal; RefreshControll; StatusBar; Navigation; Varíaveis Globais; AsyncStorage; Geolocalização; Fetch API; Configuração de Ícone; Gerando APK.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/react-native-apps/tree/main/CFB%20Cursos" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- ReactJS-->
+              <div class="cursos">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#react-extended" aria-controls="react-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('react')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">ReactJS</span>
+                    <span class="float-right" id="react">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="react-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.origamid.com/" target="_blank" rel="external" data-link="external">Origamid</a>.</li>
+                    <li><strong>Duração:</strong> 36 horas.</li>
+                    <li><strong>Nível:</strong> Básico ao Intermediário.</li>
+                    <li><strong>Tópicos abordados:</strong> Introdução ao React; Webpack e Babel; JSX (Arrays, Eventos, Componentes, Propriedades); React Hooks (useState, useEffect, useRef, useMemo, useCallback, useContext, Custom Hooks); Formulários (Input, Textarea, Select, Radio, Checkbox, Validação); CSS (Import, Modules, Styled Components, Frameworks, Animações, Imagens); React Router (Router, Link, useParams, Nested Routes); PropTypes; Lazy e Suspense; Memo; useReducer; Classes.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/aprendendo-react" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/f8P89Ul.jpg" target="_blank" rel="external" data-link="external">React_Completo [36h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- jQuery-->
+              <div class="cursos">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#jquery-extended" aria-controls="jquery-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('jquery')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">JavaScript c/ jQuery</span>
+                    <span class="float-right" id="jquery">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="jquery-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.origamid.com/" target="_blank" rel="external" data-link="external">Origamid</a>.</li>
+                    <li><strong>Duração:</strong> 18 horas.</li>
+                    <li><strong>Nível:</strong> Básico.</li>
+                    <li><strong>Tópicos abordados:</strong> JavaScript e jQuery; O que é JavaScript; Browser Developer Tools; Varíaveis; Operadores; Arrays; Condicionais; Functions; Loop; Objetos; O que é jQuery; Selecionando e Manipulando elementos do DOM; Eventos Básicos; Classes; Métodos Gerais; Animações com Scroll; Transversing; Document Ready; Data; setTimeout; Escopo; Hoisting.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/pratica-com-jquery" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/LzKUv8J.jpg" target="_blank" rel="external" data-link="external">jQuery [18h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- JavaScript ES6+-->
+              <div class="cursos">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#javascript2-extended" aria-controls="javascript2-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('javascript2')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">JavaScript 6+</span>
+                    <span class="float-right" id="javascript2">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="javascript2-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.origamid.com/" target="_blank" rel="external" data-link="external">Origamid</a>.</li>
+                    <li><strong>Duração:</strong> 74 horas.</li>
+                    <li><strong>Nível:</strong> Básico ao Avançado.</li>
+                    <li><strong>Tópicos abordados:</strong> JavaScript para Iniciantes; DOM para Iniciantes; Objetos; Efeitos no DOM; JavaScript Assíncrono (Promises, Fetch, JSON, API e HTTP, Async Await, History API); Classes (Get e Set, Herança); Funcões (Function Expression, Factory Function, Clojures, Destructuring, Rest, Spread); Regular Expression (Seleção, Substituição, Padrões, Métodos); Automação Front End (NPM, ESLint, Webpack, Babel, Git);</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/javascript-es6" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/dVLDlTt.jpg" target="_blank" rel="external" data-link="external">JavaScript [74h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- JavaScript ES5-->
+              <div class="cursos">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#javascript-extended" aria-controls="javascript-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('javascript')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">JavaScript 5</span>
+                    <span class="float-right" id="javascript">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="javascript-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 40 horas.</li>
+                    <li><strong>Nível:</strong> Básico.</li>
+                    <li><strong>Tópicos abordados:</strong> Comandos Básicos; Varíaveis e Tipos Primitivos; Tratamento de Dados; Operadores; Introdução ao DOM; Eventos DOM; Condições; Repetições; Varíaveis Compostas; Funções.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/vWEDTJH.jpg" target="_blank" rel="external" data-link="external">JavaScript [40h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Git e GitHub -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#git-extended" aria-controls="git-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('git')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Git & GitHub</span>
+                    <span class="float-right" id="git">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="git-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 20 horas.</li>
+                    <li><strong>Nível:</strong> Básico ao Intermediário.</li>
+                    <li><strong>Tópicos abordados:</strong> História e Como Funciona o Git/GitHub; Repositórios; Clone de Repositórios; Versionamento; Issues; Introdução ao Markdown; Segurança com GitHub; Branches; GitHub Pages.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <!--
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec">Em breve.</li>
+                    </ul>
+                    -->
+                  </ul>
+                </div>
+              </div>
+              <!-- MySQL -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#sql-extended" aria-controls="sql-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('sql')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">MySQL</span>
+                    <span class="float-right" id="sql">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="sql-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 40 horas.</li>
+                    <li><strong>Nível:</strong> Básico.</li>
+                    <li><strong>Tópicos abordados:</strong> História dos Bancos de Dados; História do MySQL; Estrutura de um Banco de Dados Relacional; Inserção de Dados; Alteração de Dados; Manipulação de Linhas; Gerenciamento de Cópias (Dumps); Introdução ao PHPMyAdmin; Pesquisa de Dados (Select); Modelo Relacional; Chaves Estrangeiras; Junções de Tabelas; </li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/curso-mysql" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/iyL5Z1w.jpg" target="_blank" rel="external" data-link="external">MySQL [40h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Python 3 -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#python-extended" aria-controls="python-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('python')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Python 3</span>
+                    <span class="float-right" id="python">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="python-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 120 horas.</li>
+                    <li><strong>Nível:</strong> Básico ao Intermediário.</li>
+                    <li><strong>Tópicos abordados (Mundo 1):</strong> História do Python; Primeiros Comandos; Tipos Primitivos; Saída de Dados; Operadores Aritméticos; Módulos; Manipulação de Texto; Condições; Cores.</li>
+                    <li><strong>Tópicos abordados (Mundo 2):</strong> Boas Práticas; Condições Aninhadas; Estrutura de Repetição (For, While); Interrupção de Repetições.</li>
+                    <li><strong>Tópicos abordados (Mundo 3):</strong> Tuplas; Listas; Dicionários; Funções; Módulos e Pacotes; Tratamento de Erros e Exceções.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/curso-python3" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificados:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/v7WlJ1G.jpg" target="_blank" rel="external" data-link="external">Mundo1 [40h]</a> ✅</li>
+                      <li class="lista-sec"><a href="https://i.imgur.com/tXpyQbR.jpg" target="_blank" rel="external" data-link="external">Mundo2 [40h]</a> ✅</li>
+                      <li class="lista-sec"><a href="https://i.imgur.com/aQYrFqy.jpg" target="_blank" rel="external" data-link="external">Mundo3 [40h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Ruby -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#ruby-extended" aria-controls="ruby-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('ruby')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Ruby</span>
+                    <span class="float-right" id="ruby">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="ruby-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.udemy.com/share/101BPoBUIdeVxWR34=//" target="_blank" rel="external" data-link="external">Udemy</a>.</li>
+                    <li><strong>Duração:</strong> 2,5 horas.</li>
+                    <li><strong>Nível:</strong> Básico.</li>
+                    <li><strong>Tópicos abordados:</strong> História e Como Funciona o Ruby; Terminal Ruby Interativo; Varíaveis; Comentários; Métodos; Escopo; Operadores; Input e Output; Classes; Atributos Virtuais e Accessors; Construtor; Herança; Visibilidade; Monkey Patching; Condicionais; Loops; Tratamento de Exceptions; Tipos de Dados; Parâmetros (Default, Varíaveis, Palavra-chave); Blocks e Proc; Constantes; Módulos; Organização de Código; Gerenciamento de Dependências.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/aprendendo-ruby" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- PHP OO -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#php-oo-extended" aria-controls="php-oo-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('php-oo')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">PHP OO</span>
+                    <span class="float-right" id="php-oo">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="php-oo-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 40 horas.</li>
+                    <li><strong>Nível:</strong> Intermediário.</li>
+                    <li><strong>Tópicos abordados:</strong> Programação Orientada a Objetos; Visibilidade; Métodos Especiais; Encapsulamento; Relacionamento entre Classes; Objetos Compostos; Relacionamento de Agregação; Herança; Polimorfismo; Sobrecarga.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/curso-php/tree/master/_OO" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/7wGnRYD.jpg" target="_blank" rel="external" data-link="external">PHP_OO [40h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- PHP Básico -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#php-extended" aria-controls="php-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('php')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">PHP</span>
+                    <span class="float-right" id="php">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="php-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 40 horas.</li>
+                    <li><strong>Nível:</strong> Básico.</li>
+                    <li><strong>Tópicos abordados:</strong> História e Como Funciona o PHP; Varíaveis; Operadores Aritméticos; Operadores de Atribuição; Operadores Relacionais; Integração com HTML5; Estruturas Condicionais; Estruturas de Repetição; Rotinas; Manipulação de Strings; Vetores e Matrizes.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/curso-php" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/EM4jvIC.jpg" target="_blank" rel="external" data-link="external">PHP [40h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Desenvolvimento Android -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#dev-android-extended" aria-controls="dev-android-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('dev-android')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Android</span>
+                    <span class="float-right" id="dev-android">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="dev-android-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.udemy.com/course/curso-completo-do-desenvolvedor-android/" target="_blank" rel="external" data-link="external">Udemy</a>.</li>
+                    <li><strong>Duração:</strong> 54,5 horas.</li>
+                    <li><strong>Nível:</strong> Básico ao Intermediário.</li>
+                    <li><strong>Tópicos abordados:</strong> Android Studio (Introdução, Instalação, Configuração); Príncipios Básicos de Aplicativos Android; Layout (XML, Estrutura, Imagens, etc); Java Basico e OO do zero; Componentes de Interface; Componentes de Listagem; Navegação (Activities e Fragments); Mídias; Manipulação de Dados; Biblioteca GDX (Flappy Bird Clone); Firebase; WhatsApp Clone com  Firebase; Publicação na Google Play; </li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/dev-android" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/C7b3VZq.jpg" target="_blank" rel="external" data-link="external">Dev_Android [54.5h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Java OO -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#java-oo-extended" aria-controls="java-oo-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('java-oo')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Java OO</span>
+                    <span class="float-right" id="java-oo">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="java-oo-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 40 horas.</li>
+                    <li><strong>Nível:</strong> Intermediário.</li>
+                    <li><strong>Tópicos abordados:</strong> Programação Orientada a Objetos; Visibilidade; Métodos Especiais; Encapsulamento; Relacionamento entre Classes; Objetos Compostos; Relacionamento de Agregação; Herança; Polimorfismo; Sobrecarga.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/m7ax7vV.jpg" target="_blank" rel="external" data-link="external">Java_OO [40h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Java Básico -->
+              <div class="cursos"> 
+                  <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#java-extended" aria-controls="java-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('java')">
+                    <h2 class="tam-h2 tam-center">
+                      <span class="curso-title">Java</span>
+                      <span class="float-right" id="java">+</span>
+                    </h2>
+                  </button>
+                <div class="collapse border border-success border-top-0" id="java-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 40 horas.</li>
+                    <li><strong>Nível:</strong> Básico.</li>
+                    <li><strong>Tópicos abordados:</strong> História e Como Funciona o Java; Introdução ao Swing e JavaFX; Tipos Primitivos; Manipulação de Dados; Operadores Aritméticos; Classe MATH; Operadores Lógicos e Relacionais; Estruturas Condicionais; Estruturas de Repetição; Vetores; Métodos.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/qWrmhEL.jpg" target="_blank" rel="external" data-link="external">Java [40h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- CSS com SASS -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#sass-extended" aria-controls="sass-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('sass')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">CSS com SASS</span>
+                    <span class="float-right" id="sass">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="sass-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.origamid.com/" target="_blank" rel="external" data-link="external">Origamid</a>.</li>
+                    <li><strong>Duração:</strong> 12 horas.</li>
+                    <li><strong>Nível:</strong> Básico.</li>
+                    <li><strong>Tópicos abordados:</strong> SASS e SCSS; Import; Varíaveis; Nesting; Mixins; Extend; Operadores; Condicionais; Funções; Loops.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/le-scone" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/pUGNmYi.jpg" target="_blank" rel="external" data-link="external">SASS [12h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Bootstrap 4 -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#bootstrap-extended" aria-controls="bootstrap-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('bootstrap')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Bootstrap 4</span>
+                    <span class="float-right" id="bootstrap">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="bootstrap-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.origamid.com/" target="_blank" rel="external" data-link="external">Origamid</a>.</li>
+                    <li><strong>Duração:</strong> 10 horas.</li>
+                    <li><strong>Nível:</strong> Básico.</li>
+                    <li><strong>Tópicos abordados:</strong> Grid; Navbar; Container Fluid; Carousel; Blockquote; Collapse; Modal; Galeria; Tabelas; Formularios; Tooltip; Otimização e Personalização.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/caravan" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/PjAsTae.png" target="_blank" rel="external" data-link="external">Bootstrap_4 [10h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- CSS Flexbox -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#flexbox-extended" aria-controls="flexbox-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('flexbox')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">CSS3 Flexbox</span>
+                    <span class="float-right" id="flexbox">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="flexbox-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.origamid.com/" target="_blank" rel="external" data-link="external">Origamid</a>.</li>
+                    <li><strong>Duração:</strong> 6 horas.</li>
+                    <li><strong>Nível:</strong> Intermediário.</li>
+                    <li><strong>Tópicos abordados:</strong> Display Flex; Flex Direction; Flex Wrap; Flex Flow; Justify Content; Align Items; Align Content; Flex Grow; Flex Basis; Flx Shrink; Flex; Order; Align Self.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/flexblog" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/WgUFD7w.jpg" target="_blank" rel="external" data-link="external">CSS_Flexbox [6h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- CSS Grid -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#grid-extended" aria-controls="grid-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('grid')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">CSS3 Grid Layout</span>
+                    <span class="float-right" id="grid">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="grid-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.origamid.com/" target="_blank" rel="external" data-link="external">Origamid</a>.</li>
+                    <li><strong>Duração:</strong> 10 horas.</li>
+                    <li><strong>Nível:</strong> Intermediário.</li>
+                    <li><strong>Tópicos abordados:</strong> Display Grid; Grid Template Columns; Grid Template Rows; Grid Template Areas; Grid Template; Grid Gap; Grid Auto Columns; Grid Auto Rows; Grid Auto Flow; Grid; Justify Content; Align Content; Justify Items; Align Items; Grid Column; Grid Row; Grid Area; Justify Self; Align Self.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/wildbeast" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/711IXky.jpg" target="_blank" rel="external" data-link="external">CSS_Grid [10h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- CSS Avançado -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#css-avancado-extended" aria-controls="css-avancado-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('css-avancado')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">CSS3 Avançado</span>
+                    <span class="float-right" id="css-avancado">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="css-avancado-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.origamid.com/" target="_blank" rel="external" data-link="external">Origamid</a>.</li>
+                    <li><strong>Duração:</strong> 18 horas.</li>
+                    <li><strong>Nível:</strong> Avançado.</li>
+                    <li>Desenvolvimento prático de 3 projetos, utilizando quatro maneiras diferentes de posicionamento: Puro, com width's e height's; Sistema de Grid pré definido; Flexbox e Bootstrap.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/brafe" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/CxKqFN6.jpg" target="_blank" rel="external" data-link="external">CSS3_Avançado [18h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- HTML5 e CSS3 -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#html5-extended" aria-controls="html5-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('html5')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">HTML5 & CSS3</span>
+                    <span class="float-right" id="html5">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="html5-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 40 horas.</li>
+                    <li><strong>Nível:</strong> Básico ao Intermediário.</li>
+                    <li><strong>Tópicos abordados:</strong> História da Internet; História do HTML; Como Funciona a Internet; Tags Básicas em HTML5; Parágrafos; Quebras de linhas; Símbolos Especiais; Formatação de Texto; Códigos de Cores; Imagens; Formatação de Imagens; Listas; Links; Menus; Efeitos Visuais; Formatação de Interfaces; Cabeçalho; Fontes; Semântica; Tabelas; Estilos CSS para Tabelas; Interfaces em HTML5; Introdução ao JavaScript; JavaScript com Objetos; Funções JavaScript; Integrando JavaScript ao HTML5; IFrame; Mapas de Imagem; Album de Fotos; Áudio e Imagem; Formulários; Hospedagem; Formulários com JavaScript.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/wUqBIHE.jpg" target="_blank" rel="external" data-link="external">HTML5_CSS3 [40h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Web Design -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#webdesign-extended" aria-controls="webdesign-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('webdesign')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Web Design</span>
+                    <span class="float-right" id="webdesign">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="webdesign-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.origamid.com/" target="_blank" rel="external" data-link="external">Origamid</a>.</li>
+                    <li><strong>Duração:</strong> 44 horas.</li>
+                    <li><strong>Nível:</strong> Básico ao Intermediário.</li>
+                    <li><strong>Tópicos abordados:</strong> Fundamentos do Design (Forma, Espaço, Cores, Tipografia, Grid); UX Design (Usabilidade); UI Design (Estilos); Adobe XD (Wireframe, Design); Estrutura Web; HTML e CSS Básico; Introdução ao JavaScript (Plugins); SEO; Domínio; Hospedagem; Analytics.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li><a href="https://github.com/Lucas-HMSC/bikcraft" target="_blank" rel="external" data-link="external">Ver o repositório</a>.</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/Psy1hBG.jpg" target="_blank" rel="external" data-link="external">Web_Design [44h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Linux -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#linux-extended" aria-controls="linux-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('linux')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Linux</span>
+                    <span class="float-right" id="linux">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="linux-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 40 horas.</li>
+                    <li><strong>Nível:</strong> Básico.</li>
+                    <li><strong>Tópicos abordados:</strong> História do Linux; Licenças e Liberdades; Conhecendo o Ambiente; Instalação Básica e Avançada de Programas; Terminal - Introdução, Manipulação de Diretórios, Referências Globais, Manipulação de Arquivos;</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/8SL3O9Y.jpg" target="_blank" rel="external" data-link="external">Linux [40h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Redes de Computadores -->
+              <div class="cursos"> 
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#redes-extended" aria-controls="redes-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('redes')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Redes de Computadores</span>
+                    <span class="float-right" id="redes">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="redes-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 20 horas.</li>
+                    <li><strong>Nível:</strong> Básico.</li>
+                    <li><strong>Tópicos abordados:</strong> Evolução das Redes; Classificação das Redes; Tipos de Redes; Endereçamento IP; Primeiros Passos com Roteador; Configurando Roteador; Configurações Avançadas de WiFi; Cálculo de Sub-Redes; Cabos de Redes e seus Detalhes; Montando Cabo UTP; Tomadas de Superfície; Segurança no WiFi.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/UVlWxox.jpg" target="_blank" rel="external" data-link="external">Redes [20h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Hardware -->
+              <div class="cursos"> 
+                  <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#hardware-extended" aria-controls="hardware-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('hardware')">
+                    <h2 class="tam-h2 tam-center">
+                      <span class="curso-title">Hardware</span>
+                      <span class="float-right" id="hardware">+</span>
+                    </h2>
+                  </button>
+                <div class="collapse border border-success border-top-0" id="hardware-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" data-link="external">Curso em Vídeo</a>.</li>
+                    <li><strong>Duração:</strong> 20 horas.</li>
+                    <li><strong>Tópicos abordados:</strong> Planejamento de Requisitos; Unidade Central de Processamento (CPU); Fonte de Alimentação; Placa Mãe; Memória Principal; HDD e SSD; Periféricos; Softwares; Gabinetes; Monstagem de Computadores; Cable Management; Instalando Windows e Linux (Dual Boot); Teste de Perfomance; Limpeza Interna.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/cssM3Nl.jpg" target="_blank" rel="external" data-link="external">Hardware [20h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- SEO -->
+              <div class="cursos">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#seo-extended" aria-controls="seo-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('seo')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">SEO</span>
+                    <span class="float-right" id="seo">+</span>
+                  </h2>
+                </button>                <div class="collapse border border-success border-top-0" id="seo-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> <a href="https://www.internetinnovation.com.br/" target="_blank" rel="external" data-link="external">Internet Innovation</a>.</li>
+                    <li><strong>Duração:</strong> 12 horas.</li>
+                    <li><strong>Nível:</strong> Básico ao Intermediário.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (online).</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/SSIGzzX.png" target="_blank" rel="external" data-link="external">SEO [12h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Designer de Games -->
+              <div class="cursos">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#games-extended" aria-controls="games-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('games')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Design de Games</span>
+                    <span class="float-right" id="games">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="games-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> Microcamp.</li>
+                    <li><strong>Duração:</strong> 252 horas.</li>
+                    <li><strong>Nível:</strong> Básico ao Intermediário.</li>
+                    <li><strong>Tópicos abordados:</strong> Photoshop, 3D Studio Max, Unreal Engine.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (presencial).</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/0aR4cm4.jpg" target="_blank" rel="external" data-link="external">Games [252h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Administração -->
+              <div class="cursos">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#adm-extended" aria-controls="adm-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('adm')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Administração</span>
+                    <span class="float-right" id="adm">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="adm-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> Evolute Cursos.</li>
+                    <li><strong>Duração:</strong> 96 horas.</li>
+                    <li><strong>Nível:</strong> Básico ao Intermediário.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (presencial).</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/M36ht9F.jpg" target="_blank"rel="external" data-link="external">Adm [96h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Inglês -->
+              <div class="cursos">
+                <button class="btn btn-success btn-block" type="button" data-toggle="collapse" data-target="#ingles-extended" aria-controls="ingles-extended" aria-expanded="false" aria-label="Toggle navigation" onclick="collapse('ingles')">
+                  <h2 class="tam-h2 tam-center">
+                    <span class="curso-title">Inglês</span>
+                    <span class="float-right" id="ingles">+</span>
+                  </h2>
+                </button>
+                <div class="collapse border border-success border-top-0" id="ingles-extended">
+                  <br>
+                  <ul>
+                    <li><strong>Instituição:</strong> Pop Idiomas.</li>
+                    <li><strong>Duração:</strong> 144 horas.</li>
+                    <li><strong>Nível:</strong> Básico ao Intermediário.</li>
+                    <li><strong>Obs:</strong> Curso Profissionalizante (presencial).</li>
+                    <li>Certificado:</li>
+                    <ul>
+                      <li class="lista-sec"><a href="https://i.imgur.com/lncoy8d.jpg" target="_blank"rel="external" data-link="external">Inglês [144h]</a> ✅</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+              <!-- Fim Cursos -->
+            </div>
+          </div>
+      </main>
+      <footer class="mastfoot mt-auto">
+        <div class="text-muted">
+          <p class="float-right">
+            <a href="#" class="volta-topo"><img src="https://i.imgur.com/ImLRAha.png" alt="Voltar ao Topo"></a>
+          </p>
+          <p>Site construído e mantido por <a href="https://github.com/Lucas-HMSC" target="_blank" rel="external" class="text-muted"><strong>Lucas-HMSC</strong></a></p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Principal JavaScript do Bootstrap-->
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
