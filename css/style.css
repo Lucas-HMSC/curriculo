@@ -268,11 +268,12 @@ p {
 .curso-titulo {
   font-size: 1.25em;;
   color: #2299FF;
-  font-weight: bold;
+  font-weight: 700;
 }
 .curso-link {
   text-decoration: none;
   color: #3355BB;
+  font-weight: bold;
 }
 .curso-link:hover {
   color: #2299FF;
