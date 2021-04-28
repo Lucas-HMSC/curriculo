@@ -403,6 +403,6 @@ p {
   }
   to {
     opacity: 1;
-    max-height: 400px;
+    max-height: 800px;
   }
 }
